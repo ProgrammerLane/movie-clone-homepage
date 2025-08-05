@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('nf-background.jpg');
+  background-blend-mode: darken;
+  background-size: cover;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo img{
+  width: 150px;
+  margin: 35px 0 0 150px;
+}
+
+.sign-in-btn {
+  background-color: #E50914;
+  color: white;
+  font-weight: bolder;
+  font-size: 13px;
+  line-height: 1;
+  height: 33px;
+  padding: 0 15px;
+  margin: 18px 120px 0 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sign-in-btn:hover {
+  background-color: #b00009;
+  border: 1px solid #b00009;
+  transition: 0.2s;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8vmin;
+  font-weight: bolder;
+  margin-bottom: 0;
+  word-spacing: 0;
+}
+
+.hero-section h1 span {
+  display: block;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 2.8vmin;
+  font-weight: bold;
+  margin-top: 15px;
+  word-spacing: 2px;
+}
+
+.hero-section .para {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-top: 20px;
+  word-spacing: -1px;
+}
+
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  background-color: rgba(34, 33, 33, 0.6);
+  color: white;
+  border: 1px solid #8f8f8f;
+  border-radius: 6px;
+  width: 420px;
+  max-width: 90%;
+  padding: 22px 15px 18px 15px;
+}
+
+input::placeholder {
+  color: rgb(232, 232, 232);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #E50914;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 43px 14px 28px;
+  margin-left: 1px;
+  border: 1px solid #E50914;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button i {
+  margin-left: 10px;
+  font-size: 22px;
+}
+button:hover {
+  background-color: #b00009;
+  border: 1px solid #b00009;
+  transition: 0.4s;
+}
+
